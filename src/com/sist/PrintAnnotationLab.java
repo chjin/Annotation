@@ -23,6 +23,7 @@ public class PrintAnnotationLab {
                     System.out.print(printAnnotation.value());
                 }
                 System.out.println();
+                System.out.println("test");
 
                 try{
                     method.invoke(new MethodUseAnnotation());
